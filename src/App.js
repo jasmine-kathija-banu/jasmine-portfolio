@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App px-1 py-2 bg-amber-50 dark:bg-black">
+    <div className="App px-1 py-2 bg-white dark:bg-black">
       <Navbarnew />
       <LandingPageNew />
       <AboutMeNew />

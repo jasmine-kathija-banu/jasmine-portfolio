@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 
 const Certificate = () => {
   return (
-    <div  className='w- full lg:w-[85%] flex mx-auto py-[85px] flex-wrap pl-2'>
+    <div  className='w- full lg:w-[85%] flex mx-auto py-[85px] flex-wrap pl-2 overflow-hidden'>
         <div className='w-full md:w-1/2  mx-auto '>
             <h1 className='text-[30px] md:text-[42px] font-bold text-gray-800 dark:text-white'> Full-Stack Web Development<br />
             <span className='text-sky-500 '> PERN Stack</span></h1>
             <p className='text-gray-500 text-[16px]'>Completed "The Complete 2024 Web Development Bootcamp".<br />
-            HTML, CSS, Javascript, Node,Express.js, React, PostgreSQL, Web3 and DApp.<br />
+            HTML, CSS,Bootstrap, Javascript, Node JS,Express.JS, React, PostgreSQL, Web3 and DApp.<br />
             Master frontend development with React.<br />
             Master backend development with Node.<br />
             did 15+ projects.<br />
@@ -21,9 +21,9 @@ const Certificate = () => {
 
 
 
-        <div className='w-full md:w-1/2 relative flex justify-center items-center '>
+        <div className='w-full md:w-1/2 relative flex justify-center items-center  '>
             <img src="images/blob 1.png" alt="" className='absolute z-0 lg:top-[-10%] lg:left-[45%] lg:w-[350px] left-[40%] w-[250px] top-[-20%]' />
-            <img src="images/blob.png" alt="" className='absolute z-10 lg:top-[30%] lg:left-[48%] lg:w-[350px] left-[30%] w-[300px] top-[40%] rotate-45' />
+            <img src="images/blob.png" alt="" className='absolute z-10 lg:top-[30%] lg:left-[48%] lg:w-[350px] left-[30%] w-[300px] top-[40%] rotate-45 ' />
 
             <motion.div
                 initial={{rotate:45}}

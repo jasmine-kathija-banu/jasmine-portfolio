@@ -14,16 +14,17 @@ const Navbarnew = () => {
   );
 
   return (
-    <div className='  mx-auto py-2 dark:bg-black dark:text-white'>
+    <div className='  mx-auto py-2 dark:bg-black  dark:text-white'>
         <div className='flex gap-2 flex-wrap lg:gap-0'>
         
-            <div className='w-full md:w-1/3 flex items-center justify-around lg:justify-around'>
+            <div className='w-full md:w-1/3 flex items-center justify-between lg:justify-around'>
             <div className='flex'><TbHexagonLetterJ className='lg:scale-110' size={20}/><h1 className='text-sky-500 text-[25px] dark:text-white  lg:text-gray-800 font-extrabold md:text-[35px]'>Jasmine</h1></div>
             <button className='rounded-full w-[60px] items-center cursor-pointer' onClick={()=>{
               SetDarkMode(!darkMode)
-            }}>{darkMode ? <img src='images/light w.png ' className='w-7 h-7 lg:w-10 lg:h-10 ' /> : <img src='images/night.png' className='w-7 h-7 lg:w-10 lg:h-10 '  /> }</button>
+            }}>{darkMode ? <img src='images/light w.png' alt='light' className='w-7 h-7 lg:w-9 lg:h-9 ' /> : <img src='images/night.png' alt='dark' className='w-7 h-7 lg:w-8 lg:h-8 '  /> }</button>
             </div>
-            <div className='w-full lg:w-2/3 flex font-semibold items-center justify-around lg:justify-end  text-[16px] lg:text-[20px] px-6 gap-2 '>
+            
+            <div className='w-full lg:w-2/3 flex font-semibold items-center justify-around lg:justify-end  text-[16px] lg:text-[20px] px-6 gap-2 bg-sky-400/30 lg:bg-transparent'>
             <ul className=' flex  gap-8 lg:gap-20 dark:text-white   text-gray-700  hover:*:cursor-pointer hover:*:text-sky-500'>
             <Link 
       activeClass="active" 

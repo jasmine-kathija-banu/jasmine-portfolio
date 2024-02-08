@@ -9,7 +9,7 @@ import FlotingDiv from './divs/FlotingDiv';
 import { motion, spring } from "framer-motion";
 
 const LandingPageNew = () => {
-    const transition ={duration: 2, type: 'spring'}
+    const transition ={duration: 2, type: spring}
   return (
     <section id='LandingPage' className='dark:bg-black'>
     <div className='container mx-auto p-2 pt-[50px] lg:pt-[4rem] min-h-[850px] lg:min-h-[80vh]'>
@@ -31,7 +31,7 @@ const LandingPageNew = () => {
             <p className='text-sm lg:text-xl text-gray-600 pt-4'>I Love❤️️ to learn New Things..</p>
             <div className='flex gap-5 lg:gap-10 py-6'>
                 <button className='shadow-blue-500 text-[18px] lg:text-[22px] lg:w-[160px] w-[150px] p-2  hover:scale-x-105  shadow-2xl bg-gradient-to-r rounded-full text-white from-sky-400 to-sky-600'><a href="mailto:jasmine13cse@gmail.com">Hire me</a></button>
-                <button className=' shadow-blue-500 text-[18px] lg:text-[22px] lg:w-[160px] w-[150px] p-2  hover:scale-x-105  shadow-2xl bg-gradient-to-r  rounded-full text-white from-sky-400 to-sky-600'>Get Resume</button>
+                <button className=' shadow-blue-500 text-[18px] lg:text-[22px] lg:w-[160px] w-[150px] p-2  hover:scale-x-105  shadow-2xl bg-gradient-to-r  rounded-full text-white from-sky-400 to-sky-600'><a href="https://drive.google.com/uc?export=download&id=1T_ho5KJy0mWz65M4X9gls6efJ-1g-_qT" target=''> Get Resume</a></button>
             </div>
             <div className='h-auto flex pt-4 lg:pt-6 gap-4 *:text-sky-500 hover:*:scale-110 hover:*:text-pink-600  '>
                 <a href='https://www.facebook.com/jasmine0kathija0banu?mibextid=ZbWKwL' target="_blank" rel="noreferrer"> <FaFacebookSquare size={30}/></a>

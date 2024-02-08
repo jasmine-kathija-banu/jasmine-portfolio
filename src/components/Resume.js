@@ -27,7 +27,7 @@ const Resume = () => {
             <FaLaptopCode  size={25}/>
             <FaHourglassStart  size={25} />
           </div>
-          <div className='flex flex-col  lg:py-[50px] pr-10 dark:text-white ' >
+          <div className='flex flex-col pt-2 md:pt-0 lg:py-[50px] pr-10 dark:text-white ' >
             <ul className='hover:*:bg-sky-500 *:bg-gray-600/40 *:cursor-pointer active:*:scale-105 *:rounded-r-full w-[260px] lg:w-[220px] space-y-7 lg:space-y-8 *:p-2 *:px-2 *:shadow-lg *:shadow-sky-400'>
             <li onClick={()=>setViewDiv("education")}>Education</li>
             <li onClick={()=>setViewDiv("work history")}>Work History</li>
@@ -37,7 +37,7 @@ const Resume = () => {
             </ul>
           </div> 
         </div>
-        <div className='w-full md:w-2/3 mt-3  py-16 px-6 relative lg:dark:brightness-90 dark:brightness-75' style={{ 
+        <div className='w-full md:w-2/3 mt-3  py-10 px-3 md:py-16 md:px-6 relative lg:dark:brightness-90 dark:brightness-75' style={{ 
       backgroundImage: `url("images/probackpink.jpg")`, backgroundSize: "cover"}}>
           {viewDiv === "education" && <Education /> }
           {viewDiv === "work history" &&<WorkHistory />}

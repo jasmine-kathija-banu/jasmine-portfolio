@@ -22,9 +22,9 @@ const AboutMeNew = () => {
           <img
             src="images/pink.png"
             alt="pink smoke"
-            className="opacity-30 absolute lg:left-[90px] left-[70px]  inset-0 z-10"
+            className="opacity-20 absolute lg:left-[90px] left-[70px]  inset-0 z-10 bg-blend-multiply"
           />
-          <div className="px-5 lg:px-10 text-[16px] absolute z-20  lg:text-lg pt-2 lg:pt-10 first-letter:text-sky-500 first-letter:pl-10">
+          <div className="px-3 lg:px-10 text-[16px] absolute z-20  lg:text-lg pt-2 lg:pt-10 first-letter:text-sky-500 first-letter:pl-10">
             I'm skilled at working with teams, fostering positive relationships,
             and communicating effectively. I'm a team player who values
             everyone's input and contributes actively to discussions. My
