@@ -35,7 +35,7 @@ const AboutMeNew = () => {
               <li>Leadership Ability</li>
               <li>Creative Thinking</li>
               <li>Problem Solving</li>
-              <li>planning & organizing</li>
+              <li>Planning & Organizing</li>
             </ul>
             <div className="flex justify-around ">
               <Link
